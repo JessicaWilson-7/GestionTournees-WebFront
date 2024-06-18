@@ -1,0 +1,23 @@
+<h1>Tableau de Bord</h1>
+<p>Bienvenue sur le tableau de bord !</p>
+  <div class="dashboard-container">
+    <h2>Dashboard</h2>
+    <div class="stats">
+      <div class="stat">
+        <h3>Total Tours</h3>
+        <p>{{ totalTours }}</p>
+      </div>
+      <div class="stat">
+        <h3>Active Users</h3>
+        <p>{{ activeUsers }}</p>
+      </div>
+      <div class="stat">
+        <h3>Recent Notifications</h3>
+        <p>{{ recentNotifications }}</p>
+      </div>
+      <div class="dashboard-container">
+        <button (click)="logout()">Logout</button>
+      </div>
+    </div>
+  </div>
+  
