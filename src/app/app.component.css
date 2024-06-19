@@ -51,7 +51,7 @@
     display: none; /* Masque l'élément lorsque la classe hide est présente */
   }
 
-  .profile-item {
+  .profile-item {   
     display: flex;
     align-items: center;
     margin-bottom: 10px;
